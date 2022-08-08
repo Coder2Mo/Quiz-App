@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.image {
+    position: absolute;
+    width: 30vw;
+    height: 70vh;
+    background-image: url(images/quzi.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    top: 15%;
+}
+
+.text {
+    position: absolute;
+    right: 0;
+    font-size: 90px;
+    color: #1a2e35;
+    font-family: cursive;
+    top: 180px;
+    right: 70px;
+}
+
+#two {
+    top: 350px;
+    right: 70px;
+}
+
+.text span {
+    color: #58a6ff;
+}
+
+.main-container {
+    height: 100vh;
+    /* width: 100vw; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container {
+    background-color: aliceblue;
+    width: 40vw;
+    padding: 0 3rem;
+    box-shadow: 10px 10px 10px gray, inset 10px 10px 20px gainsboro;
+    border-radius: 20px;
+}
+
+
+/* H1 STYLING   */
+
+h1 {
+    font-family: cursive;
+    margin: 2rem 0;
+    color: #58a6ff;
+}
+
+
+/* OPTIONS STYLING  */
+
+ul li {
+    padding: 0.7rem;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+/* SUBMIT BUTTON  */
+
+#submit,
+.btn {
+    display: block;
+    margin: auto;
+    padding: 0.3em 1.8em;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background-color: #58a6ff;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#submit:hover {
+    background-color: #1a2e35;
+    color: white;
+}
+
+
+/* CURSOR POINTER */
+
+#submit,
+label,
+input {
+    cursor: pointer;
+}
+
+#showScore {
+    background-color: #ececec;
+    padding: 2em;
+    margin: 2rem;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+
+#showScore .btn {
+    background-color: #1a2e35;
+    padding: 5px;
+    margin: 20px auto 0;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.score {
+    display: none;
+}
+
+#showScore .btn:hover {
+    background-color: #ececec;
+    border: 1px solid #1a2e35;
+    color: #1a2e35;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    justify-content: space-between;
+    padding: 10px 70px;
+    background: linear-gradient(#0072b1, #1DA1F2);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.heart:hover {
+    color: #ff0000;
+}
+
+footer .social i {
+    font-size: 25px;
+    margin: 0 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.copy a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copy a:hover {
+    color: #1E1E1E;
+}
+
+.fa-instagram:hover {
+    color: palevioletred;
+}
+
+.fa-facebook:hover {
+    color: #fff;
+}
+
+.fa-whatsapp:hover {
+    color: greenyellow;
+}
+
+.fa-phone:hover {
+    color: #1E1E1E;
+}
